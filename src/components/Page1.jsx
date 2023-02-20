@@ -3,10 +3,10 @@ import "../Style/Page1.css";
 
 const Page1 = () => {
   return (
-    <div className=" h-full p-4 flex justify-center">
+    <div className=" h-full p-4 flex justify-center relative">
       <div className="min-w-full">
-        <div>
-          <h1 className=" mt-6 title text-3xl font-bold">Personal info</h1>
+        <div className="mt-6">
+          <h1 className="  title text-3xl font-bold">Personal info</h1>
           <p className=" mt-2 text-gray-500">
             Please provide your name,email address,and phone number.
           </p>
@@ -54,12 +54,13 @@ const Page1 = () => {
             />
           </form>
         </div>
-        <div className="btns mt-24 flex justify-between">
-          <button className="prev-stp " type="button">
+        <div className=" bottom-5 right-4 absolute">
+          {/* <button className="prev-stp " type="button">
             Go Back
-          </button>
+          </button> */}
           <button
-            className="next-stp py-2 px-4 bg-indigo-900 text-white rounded-md"
+            className="next-stp py-2 px-4 text-sm  font-semibold rounded-md border border-indigo-400 text-white 
+            bg-indigo-600 hover:bg-indigo-500 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2"
             type="submit"
           >
             Next Step
