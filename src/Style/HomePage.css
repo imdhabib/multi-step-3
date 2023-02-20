@@ -1,0 +1,50 @@
+/* font-family: 'Ubuntu', sans-serif; */
+
+:root {
+  --Marine-blue: hsl(213, 96%, 18%);
+  --Purplish-blue: hsl(243, 100%, 62%);
+  --Pastel-blue: hsl(228, 100%, 84%);
+  --Light-blue: hsl(206, 94%, 87%);
+  --Strawberry-red: hsl(354, 84%, 57%);
+
+  --Cool-gray: hsl(231, 11%, 63%);
+  --Light-gray: hsl(229, 24%, 87%);
+  --Magnolia: hsl(217, 100%, 97%);
+  --Alabaster: hsl(231, 100%, 99%);
+  --White: hsl(0, 0%, 100%);
+}
+
+img {
+  max-width: 100%;
+}
+
+/* body {
+  background-color: var(--Magnolia);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+} */
+
+.containers {
+  width: 900px;
+  background-color: var(--White);
+  border-radius: 0.8rem;
+  box-shadow: 0px 0px 1px black;
+}
+
+.leftSide {
+  background-image: url("../images/bg-sidebar-desktop.svg");
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 568px;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.active {
+  background-color: var(--Light-blue) !important;
+  color: var(--Marine-blue) !important;
+}
