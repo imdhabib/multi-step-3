@@ -1,0 +1,25 @@
+.div {
+  height: 176px;
+  width: 128px;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 1rem;
+  /* background: #f8f8f8; */
+  position: relative;
+}
+
+.content {
+  bottom: 1rem;
+  left: 1rem;
+  position: absolute;
+}
+.Border {
+  border: 2px solid #483eff;
+}
+.none {
+  border: 2px solid rgb(233, 233, 233);
+}
+
+.blues {
+  border: #483eff solid 2px;
+}

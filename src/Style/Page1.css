@@ -9,3 +9,14 @@
   color: var(--Cool-gray);
   cursor: pointer;
 } */
+
+.validError {
+  display: none;
+}
+
+.inValidError {
+  display: inline-block;
+  color: red;
+  font-size: 13px;
+  font-weight: 500;
+}

@@ -36,15 +36,29 @@ img {
 .leftSide {
   background-image: url("../images/bg-sidebar-desktop.svg");
   background-repeat: no-repeat;
-  width: 400px;
+  /* width: 400px; */
   height: 568px;
   padding: 3rem 2rem;
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  /* flex-direction: column; */
+  /* display: grid; */
+  /* gap: 2rem; */
 }
 
 .active {
   background-color: var(--Light-blue) !important;
   color: var(--Marine-blue) !important;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-right: 1.5rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
 }

@@ -1,0 +1,18 @@
+.main-switch label::before {
+  content: " ";
+  display: flex;
+  width: 11px;
+  height: 11px;
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 2px 3px 15px #879ac2, -5px -5px 15px rgba(79, 120, 167, 0.171);
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  left: 3px;
+}
+
+.main-switch input[type="checkbox"]:checked + label::before {
+  content: "";
+  left: 65%;
+}

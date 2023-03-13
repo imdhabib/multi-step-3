@@ -9,12 +9,6 @@ const Page3 = ({ setPage }) => {
   const handle1 = () => {
     setBorder1((perv) => !perv);
   };
-  const handle2 = () => {
-    setBorder2((perv) => !perv);
-  };
-  const handle3 = () => {
-    setBorder3((perv) => !perv);
-  };
 
   return (
     <div className=" h-full p-4 flex justify-center relative">
@@ -31,7 +25,7 @@ const Page3 = ({ setPage }) => {
           <div className="PlanCard mt-8 space-y-4">
             <div
               onClick={handle1}
-              className={`div1 ${border1 ? "Borders" : "border"}`}
+              className={`div1 ${border1 ? "Border" : "border"}`}
             >
               <div className="left flex space-x-3 ">
                 <input
@@ -50,10 +44,7 @@ const Page3 = ({ setPage }) => {
               </div>
             </div>
 
-            <div
-              onClick={handle2}
-              className={`div1 ${border2 ? "Borders" : "border"}`}
-            >
+            <div className=" border px-4 py-2 rounded-md cursor-pointer flex justify-between items-center">
               <div className="left flex space-x-3 ">
                 <input
                   className=" cursor-pointer w-5 rounded-full"
@@ -71,10 +62,7 @@ const Page3 = ({ setPage }) => {
               </div>
             </div>
 
-            <div
-              onClick={handle3}
-              className={`div1 ${border3 ? "Borders" : "border"}`}
-            >
+            <div className=" border px-4 py-2 rounded-md cursor-pointer flex justify-between items-center">
               <div className="left flex space-x-3 ">
                 <input
                   className=" cursor-pointer w-5 rounded-full"

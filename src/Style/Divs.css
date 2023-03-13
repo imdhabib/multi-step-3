@@ -1,0 +1,25 @@
+.box {
+  display: flex;
+  padding: 2rem;
+  /* color: rgb(9, 92, 29); */
+}
+
+/* .blue {
+  color: rgb(243, 149, 61);
+  width: 150px;
+  height: 300px;
+} */
+
+.div1 {
+  width: 170px;
+  height: 300px;
+  border: 1px solid rgb(61, 61, 61);
+}
+
+.Border {
+  border: 2px solid blue;
+}
+
+.border {
+  border: 2px solid rgb(175, 175, 175);
+}
